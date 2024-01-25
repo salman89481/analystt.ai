@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracking System</title>
+</head>
+<body>
+    <h1>Expense Tracking System</h1>
+    <form action="/add_expense" method="post">
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" required step="0.01"><br>
+        <label for="category">Category:</label>
+        <input type="text" name="category" required><br>
+        <input type="submit" value="Add Expense">
+    </form>
+    <a href="/view_expenses">View Expenses</a>
+</body>
+</html>
